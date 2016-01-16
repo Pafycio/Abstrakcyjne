@@ -1,0 +1,26 @@
+﻿Build started 06.01.2016 16:21:00.
+     1>Project "E:\Projekty\Coding\Abstrakcyjne\EX_5\EX_5\EX_5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IE:\Projekty\Coding\Abstrakcyjne\EX_5\packages\gtest.1.7.0\build\native\../..//build/native/include/ /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt SortedDeque.cpp SortedDequeTests.cpp
+         SortedDequeTests.cpp
+         SortedDeque.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projekty\Coding\Abstrakcyjne\EX_5\x64\Debug\EX_5.exe" /INCREMENTAL /NOLOGO E:\Projekty\Coding\Abstrakcyjne\EX_5\packages\gtest.1.7.0\build\native\../..//build/native/lib/Debug\gtestd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Projekty\Coding\Abstrakcyjne\EX_5\x64\Debug\EX_5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projekty\Coding\Abstrakcyjne\EX_5\x64\Debug\EX_5.lib" /MACHINE:X64 x64\Debug\SortedDeque.obj
+         x64\Debug\SortedDequeTests.obj
+     1>SortedDequeTests.obj : error LNK2019: unresolved external symbol "void const * __cdecl testing::internal::GetTestTypeId(void)" (?GetTestTypeId@internal@testing@@YAPEBXXZ) referenced in function "void __cdecl `dynamic initializer for 'private: static class testing::TestInfo * first_tTEST_Test::test_info_''(void)" (??__E?test_info_@first_tTEST_Test@@0QEAVTestInfo@testing@@EA@@YAXXZ)
+     1>SortedDequeTests.obj : error LNK2019: unresolved external symbol "class testing::TestInfo * __cdecl testing::internal::MakeAndRegisterTestInfo(char const *,char const *,char const *,char const *,void const *,void (__cdecl*)(void),void (__cdecl*)(void),class testing::internal::TestFactoryBase *)" (?MakeAndRegisterTestInfo@internal@testing@@YAPEAVTestInfo@2@PEBD000PEBXP6AXXZ2PEAVTestFactoryBase@12@@Z) referenced in function "void __cdecl `dynamic initializer for 'private: static class testing::TestInfo * first_tTEST_Test::test_info_''(void)" (??__E?test_info_@first_tTEST_Test@@0QEAVTestInfo@testing@@EA@@YAXXZ)
+     1>SortedDequeTests.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl testing::Test::~Test(void)" (??1Test@testing@@UEAA@XZ) referenced in function "public: virtual __cdecl first_tTEST_Test::~first_tTEST_Test(void)" (??1first_tTEST_Test@@UEAA@XZ)
+     1>SortedDequeTests.obj : error LNK2019: unresolved external symbol "protected: __cdecl testing::Test::Test(void)" (??0Test@testing@@IEAA@XZ) referenced in function "public: __cdecl first_tTEST_Test::first_tTEST_Test(void)" (??0first_tTEST_Test@@QEAA@XZ)
+     1>SortedDequeTests.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl testing::Test::SetUp(void)" (?SetUp@Test@testing@@MEAAXXZ)
+     1>SortedDequeTests.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl testing::Test::TearDown(void)" (?TearDown@Test@testing@@MEAAXXZ)
+     1>SortedDequeTests.obj : error LNK2019: unresolved external symbol "public: static class testing::UnitTest * __cdecl testing::UnitTest::GetInstance(void)" (?GetInstance@UnitTest@testing@@SAPEAV12@XZ) referenced in function "int __cdecl RUN_ALL_TESTS(void)" (?RUN_ALL_TESTS@@YAHXZ)
+     1>SortedDequeTests.obj : error LNK2019: unresolved external symbol "public: int __cdecl testing::UnitTest::Run(void)" (?Run@UnitTest@testing@@QEAAHXZ) referenced in function "int __cdecl RUN_ALL_TESTS(void)" (?RUN_ALL_TESTS@@YAHXZ)
+     1>SortedDequeTests.obj : error LNK2019: unresolved external symbol "void __cdecl testing::InitGoogleTest(int *,char * *)" (?InitGoogleTest@testing@@YAXPEAHPEAPEAD@Z) referenced in function main
+     1>E:\Projekty\Coding\Abstrakcyjne\EX_5\packages\gtest.1.7.0\build\native\../..//build/native/lib/Debug\gtestd.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>E:\Projekty\Coding\Abstrakcyjne\EX_5\x64\Debug\EX_5.exe : fatal error LNK1120: 9 unresolved externals
+     1>Done Building Project "E:\Projekty\Coding\Abstrakcyjne\EX_5\EX_5\EX_5.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.23

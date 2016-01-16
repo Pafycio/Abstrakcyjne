@@ -1,0 +1,16 @@
+﻿namespace Ex_6
+{
+    public class ConstructionRecipe
+    {
+        private string nameOfObject;
+        public string NameOfObject
+        {
+            get { return nameOfObject; }
+            set { nameOfObject = value; }
+        }
+        public ConstructionRecipe(string name)
+        {
+            NameOfObject = name;
+        }
+    }
+}

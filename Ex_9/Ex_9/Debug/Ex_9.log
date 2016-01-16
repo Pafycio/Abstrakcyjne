@@ -1,0 +1,86 @@
+﻿Build started 16.01.2016 18:19:43.
+     1>Project "E:\Projekty\Coding\Abstrakcyjne\Ex_9\Ex_9\Ex_9.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IE:\Projekty\Coding\Abstrakcyjne\Ex_9\packages\gmock.1.7.0\build\native\..\..\lib\native\include\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Tests.cpp
+         Tests.cpp
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(161): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(159): note: while compiling class template member function 'Board<int>::Board(unsigned int,unsigned int,T)'
+                 with
+                 [
+                     T=int
+                 ]
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\tests.cpp(188): note: see reference to function template instantiation 'Board<int>::Board(unsigned int,unsigned int,T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\tests.cpp(29): note: see reference to class template instantiation 'Board<int>' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(163): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(148): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(146): note: while compiling class template member function 'Board<int>::Board(unsigned int,unsigned int)'
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\tests.cpp(75): note: see reference to function template instantiation 'Board<int>::Board(unsigned int,unsigned int)' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(150): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(173): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(172): note: while compiling class template member function 'void Board<int>::combineRows(unsigned int,unsigned int)'
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\tests.cpp(140): note: see reference to function template instantiation 'void Board<int>::combineRows(unsigned int,unsigned int)' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(182): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(181): note: while compiling class template member function 'void Board<int>::combineColumns(unsigned int,unsigned int)'
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\tests.cpp(167): note: see reference to function template instantiation 'void Board<int>::combineColumns(unsigned int,unsigned int)' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(215): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(209): note: while compiling class template member function 'void Board<int>::appendHorizontally(Board<int>)'
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\tests.cpp(211): note: see reference to function template instantiation 'void Board<int>::appendHorizontally(Board<int>)' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(227): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(235): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(237): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(320): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(318): note: while compiling class template member function 'int &Board<int>::at(unsigned int,unsigned int)'
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\tests.cpp(34): note: see reference to function template instantiation 'int &Board<int>::at(unsigned int,unsigned int)' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(200): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(198): note: while compiling class template member function 'Board<char>::row_iterator Board<char>::insertColumn(Board<char>::row_iterator,T)'
+                 with
+                 [
+                     T=char
+                 ]
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\tests.cpp(485): note: see reference to function template instantiation 'Board<char>::row_iterator Board<char>::insertColumn(Board<char>::row_iterator,T)' being compiled
+                 with
+                 [
+                     T=char
+                 ]
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(252): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(248): note: while compiling class template member function 'void Board<char>::appendVertically(Board<char>)'
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\tests.cpp(272): note: see reference to function template instantiation 'void Board<char>::appendVertically(Board<char>)' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(266): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(275): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(277): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(330): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(328): note: while compiling class template member function 'void Board<int>::insertOnPos(unsigned int,unsigned int,T)'
+                 with
+                 [
+                     T=int
+                 ]
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(217): note: see reference to function template instantiation 'void Board<int>::insertOnPos(unsigned int,unsigned int,T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\board.h(159): note: while compiling class template member function 'Board<int>::Board(unsigned int,unsigned int,T)'
+                 with
+                 [
+                     T=int
+                 ]
+         e:\projekty\coding\abstrakcyjne\ex_9\ex_9\tests.cpp(188): note: see reference to function template instantiation 'Board<int>::Board(unsigned int,unsigned int,T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projekty\Coding\Abstrakcyjne\Ex_9\Debug\Ex_9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Projekty\Coding\Abstrakcyjne\Ex_9\Debug\Ex_9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projekty\Coding\Abstrakcyjne\Ex_9\Debug\Ex_9.lib" /MACHINE:X86 Debug\board.obj
+         Debug\Tests.obj
+         "Debug\gtest-all.obj"
+         "Debug\gmock-all.obj"
+         Ex_9.vcxproj -> E:\Projekty\Coding\Abstrakcyjne\Ex_9\Debug\Ex_9.exe
+     1>Done Building Project "E:\Projekty\Coding\Abstrakcyjne\Ex_9\Ex_9\Ex_9.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.40
