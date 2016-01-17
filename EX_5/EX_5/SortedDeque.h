@@ -10,7 +10,7 @@ public:
 	using Bucket = std::vector<Entity>;
 	using Deque = std::vector<Bucket>;
 
-	using iterator = std::vector<std::pair<T, unsigned> >::iterator;
+	using iterator = typename std::vector<std::pair<T, unsigned> >::iterator;
 
 	const unsigned SIZE_OF_BUCKET = TSize;
 	unsigned TOTAL_MAX_SIZE;

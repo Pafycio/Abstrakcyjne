@@ -278,7 +278,7 @@ TEST_F(SortedDequeTests, testIterator)
 
 	vector<float>::iterator vit = valuesToAdd.begin();
 	for (SortedDeque<float>::iterator it = sortedDeque.begin(); it != sortedDeque.end(); ++it, ++vit)
-		ASSERT_EQ(*it, *vit);
+		ASSERT_EQ((*it).first, *vit);
 }
 
 int main(int argc, char* argv[])

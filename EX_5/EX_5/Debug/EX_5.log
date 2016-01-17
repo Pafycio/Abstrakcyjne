@@ -1,37 +1,19 @@
-﻿Build started 11.01.2016 22:44:21.
+﻿Build started 17.01.2016 19:45:26.
      1>Project "E:\Projekty\Coding\Abstrakcyjne\EX_5\EX_5\EX_5.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IE:\Projekty\Coding\Abstrakcyjne\EX_5\packages\gmock.1.7.0\build\native\..\..\lib\native\include\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt SortedDeque.cpp SortedDequeTests.cpp
          SortedDequeTests.cpp
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.h(13): error C2061: syntax error: identifier 'iterator'
-         e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.h(44): note: see reference to class template instantiation 'SortedDeque<T,TSize>' being compiled
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.h(13): error C2238: unexpected token(s) preceding ';'
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.h(37): error C3646: 'begin': unknown override specifier
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.h(37): error C2059: syntax error: '('
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.h(37): error C2238: unexpected token(s) preceding ';'
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.h(38): error C3646: 'end': unknown override specifier
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.h(38): error C2059: syntax error: '('
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.h(38): error C2238: unexpected token(s) preceding ';'
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(112): error C2143: syntax error: missing ';' before 'SortedDeque<T,TSize>::begin'
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(112): warning C4346: 'begin': dependent name is not a type
-         e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(112): note: prefix with 'typename' to indicate a type
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(116): warning C4346: 'SortedDeque<T,TSize>::begin': dependent name is not a type
-         e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(116): note: prefix with 'typename' to indicate a type
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(116): error C2988: unrecognizable template declaration/definition
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(116): error C2059: syntax error: '<end Parse>'
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(119): error C2065: 'T': undeclared identifier
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(119): error C2065: 'TSize': undeclared identifier
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(119): error C2923: 'SortedDeque': 'T' is not a valid template type argument for parameter 'T'
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(119): error C2975: 'TSize': invalid template argument for 'SortedDeque', expected compile-time constant expression
-         e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.h(5): note: see declaration of 'TSize'
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(120): error C2143: syntax error: missing ';' before '{'
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.cpp(120): error C2447: '{': missing function header (old-style formal list?)
-     1>e:\projekty\coding\abstrakcyjne\ex_5\ex_5\sorteddeque.h(37): fatal error C1903: unable to recover from previous error(s); stopping compilation
-         INTERNAL COMPILER ERROR in 'C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe'
-             Please choose the Technical Support command on the Visual C++
-             Help menu, or open the Technical Support help file for more information
-     1>Done Building Project "E:\Projekty\Coding\Abstrakcyjne\EX_5\EX_5\EX_5.vcxproj" (Build target(s)) -- FAILED.
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         SortedDeque.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projekty\Coding\Abstrakcyjne\EX_5\Debug\EX_5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Projekty\Coding\Abstrakcyjne\EX_5\Debug\EX_5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projekty\Coding\Abstrakcyjne\EX_5\Debug\EX_5.lib" /MACHINE:X86 Debug\SortedDeque.obj
+         Debug\SortedDequeTests.obj
+         "Debug\gtest-all.obj"
+         "Debug\gmock-all.obj"
+         EX_5.vcxproj -> E:\Projekty\Coding\Abstrakcyjne\EX_5\Debug\EX_5.exe
+     1>Done Building Project "E:\Projekty\Coding\Abstrakcyjne\EX_5\EX_5\EX_5.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.51
+Time Elapsed 00:00:01.91

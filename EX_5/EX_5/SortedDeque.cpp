@@ -109,17 +109,15 @@ void SortedDeque<T, TSize>::insert(T value)
 }
 
 template<typename T, unsigned TSize>
-iterator SortedDeque<T, TSize>::begin()
+typename SortedDeque<T, TSize>::iterator SortedDeque<T, TSize>::begin()
 {
-	auto it = deque.at(0)::iterator;
-	return it.begin();
+	return deque.at(0).begin();
 }
 
 template<typename T, unsigned TSize>
-iterator SortedDeque<T, TSize>::end()
+typename SortedDeque<T, TSize>::iterator SortedDeque<T, TSize>::end()
 {
-	auto it = deque.at(0)::iterator;
-	return it.end();
+	return deque.at(0).end();
 }
 
 template<typename T, unsigned TSize>
