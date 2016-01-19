@@ -1,0 +1,73 @@
+﻿Build started 19.01.2016 01:26:06.
+     1>Project "E:\Projekty\Coding\Abstrakcyjne\Ex_10\Ex_10\Ex_10.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IE:\Projekty\Coding\Abstrakcyjne\Ex_10\packages\dirent.1.13.1\build\native\../..//build/native/include/ /IE:\Projekty\Coding\Abstrakcyjne\Ex_10\packages\gmock.1.7.0\build\native\..\..\lib\native\include\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_DIRENT /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Tests.cpp
+         Tests.cpp
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(94): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(91): note: while compiling class template member function 'FileMatrix<Type>::FileMatrix(const std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &)'
+                 with
+                 [
+                     _Ty=int
+                 ]
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\tests.cpp(314): note: see reference to function template instantiation 'FileMatrix<Type>::FileMatrix(const std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &)' being compiled
+                 with
+                 [
+                     _Ty=int
+                 ]
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\tests.cpp(51): note: see reference to class template instantiation 'FileMatrix<Type>' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(97): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(122): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(121): note: while compiling class template member function 'void FileMatrix<Type>::operator *=(T &)'
+                 with
+                 [
+                     T=Type
+                 ]
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\tests.cpp(361): note: see reference to function template instantiation 'void FileMatrix<Type>::operator *=(T &)' being compiled
+                 with
+                 [
+                     T=Type
+                 ]
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(124): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(136): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(133): note: while compiling class template member function 'FileMatrix<Type> FileMatrix<Type>::operator *(const FileMatrix<Type> &)'
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\tests.cpp(412): note: see reference to function template instantiation 'FileMatrix<Type> FileMatrix<Type>::operator *(const FileMatrix<Type> &)' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(138): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(140): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(165): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(159): note: while compiling class template member function 'void FileMatrix<Type>::flush(void)'
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\tests.cpp(169): note: see reference to function template instantiation 'void FileMatrix<Type>::flush(void)' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(167): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(177): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(176): note: while compiling class template member function 'void FileMatrix<Type>::setDiagonal(T)'
+                 with
+                 [
+                     T=Type
+                 ]
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\tests.cpp(235): note: see reference to function template instantiation 'void FileMatrix<Type>::setDiagonal(T)' being compiled
+                 with
+                 [
+                     T=Type
+                 ]
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(221): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(211): note: while compiling class template member function 'void FileMatrix<Type>::initialise(unsigned int,unsigned int,std::string)'
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\tests.cpp(252): note: see reference to function template instantiation 'void FileMatrix<Type>::initialise(unsigned int,unsigned int,std::string)' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(224): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(198): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(185): note: while compiling class template member function 'void FileMatrix<Type>::initialise(unsigned int,unsigned int)'
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\tests.cpp(52): note: see reference to function template instantiation 'void FileMatrix<Type>::initialise(unsigned int,unsigned int)' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(201): warning C4018: '<': signed/unsigned mismatch
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(239): warning C4018: '<': signed/unsigned mismatch
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(234): note: while compiling class template member function 'void FileMatrix<Type>::initialiseFromFile(std::string)'
+         e:\projekty\coding\abstrakcyjne\ex_10\ex_10\tests.cpp(263): note: see reference to function template instantiation 'void FileMatrix<Type>::initialiseFromFile(std::string)' being compiled
+     1>e:\projekty\coding\abstrakcyjne\ex_10\ex_10\filematrix.h(242): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projekty\Coding\Abstrakcyjne\Ex_10\Debug\Ex_10.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Projekty\Coding\Abstrakcyjne\Ex_10\Debug\Ex_10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projekty\Coding\Abstrakcyjne\Ex_10\Debug\Ex_10.lib" /MACHINE:X86 Debug\FileMatrix.obj
+         Debug\Tests.obj
+         "Debug\gtest-all.obj"
+         "Debug\gmock-all.obj"
+         Ex_10.vcxproj -> E:\Projekty\Coding\Abstrakcyjne\Ex_10\Debug\Ex_10.exe
+     1>Done Building Project "E:\Projekty\Coding\Abstrakcyjne\Ex_10\Ex_10\Ex_10.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.70
